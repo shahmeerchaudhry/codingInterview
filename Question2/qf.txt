@@ -1,0 +1,13 @@
+Python based implementation of Quadratic Function
+
+The program takes three inputs a, b, c and returns
+two outputs for solutions of the quadratic formula.
+
+Some assumptions on inputs and behaviour
+the squareroot output must be >= 0 as squareroot
+of negative will give an imaginary number/error.
+ie -> sqrt(b^2 - 4ac) >= 0
+
+The second constraint is 2(a) cannot be 0, as we cannot divide by 0, hence a cannot be 0.
+
+This also can be deduced logically as 'a' being 0, would mean that the the quadratic equation would be 0x^2 hence it will no longer be a quadratic equation but a linear one.
