@@ -11,7 +11,7 @@ def main():
 
 
 	output2 = powIterative(base, power);
-	print("Iterative " + str(output2))c
+	print("Iterative " + str(output2))
 
 
 def powSimple(base , power):
