@@ -2,12 +2,12 @@ import os
 
 
 def main():
+	
 	word = str(input())
 	firstLetter = word[0]
 
 	#Send the non first letter word
 	replaceCharword = replaceChar(word[1:])
-
 
 	adjCollapseword = adjCollapse(replaceCharword)
 
@@ -49,19 +49,23 @@ def replaceChar(word):
 			if letter in value:
 				word = word.replace(letter, str(point))
 
-
-
-
 	return word
 
 def adjCollapse(word):
 
-	new_word = word;
+	new_word = ""
+	prev_char = None
 
-	#check from first letter to second last and remove adj duplicates
-	for i in range(len(word) - 1):
-		if word[i] == word[i+1]:
-			new_word = word[:i] + word[i+1:]
+	#simplified adj check
+	#iterates through string
+	#appends  char to  string only if next char
+	#is not the same as previous char
+
+	for char in word:
+		if char != prev_char:
+			new_word += char
+			prev_char = char
+	
 	return new_word
 
 def removeNonDigits(word, firstLetter):
@@ -72,10 +76,10 @@ def removeNonDigits(word, firstLetter):
 	#Remove non digits defined as 0
 	word = word.replace("0","");
 
-	#Add 0 o
+	#Add 0s to make size 4
 	while (len(word) < 4):
 		word += "0"
-
+	#If larger than 4 truncate
 	if (len(word) > 4):
 		word = word[0:4]
 
