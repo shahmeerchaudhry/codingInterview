@@ -2,8 +2,9 @@ import os
 
 
 def main():
-	
+
 	word = str(input())
+	
 	firstLetter = word[0]
 
 	#Send the non first letter word
