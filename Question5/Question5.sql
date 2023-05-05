@@ -5,8 +5,8 @@ CONCAT(Person.FamilyName,' ',Person.GivenName) AS PersonName,
 TIMESTAMPDIFF(YEAR, Person.DateOfBirth, CURRENT_DATE) AS AGE,
 
 -- COALESCE Used to return UNKNOWN on NULL
-COALESCE(CONCAT(Father.FamilyName,' ',Father.GivenName),'UNKNOWN') AS FatherName,
-COALESCE(CONCAT(Mother.FamilyName,' ',Mother.GivenName),'UNKNOWN') AS MotherName
+COALESCE(CONCAT(Father.FamilyName,' ',Father.GivenName),'(Unknown)') AS FatherName,
+COALESCE(CONCAT(Mother.FamilyName,' ',Mother.GivenName),'(Unknown)') AS MotherName
 
 FROM Person
 
