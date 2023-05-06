@@ -1,0 +1,5 @@
+The C++ implementation of the Power Function does
+so in two ways, iteratively and recursively, although these 
+approaches in theory are similar, there is potentially more
+resource overhead on the recursive implementation, as it requires
+more usage on the stack frame each time the function is called and loaded onto the stack.
