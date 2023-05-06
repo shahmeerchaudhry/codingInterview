@@ -1,7 +1,7 @@
 # Coding Interview Questions Summary
 Coding Interview Questions 
 
-Question 1: Three languages used include Python, Javascript and C++, two implementation of Power Function were developed iteratively and recursively. Question1/note.txt goes over some observations on this.
+Question 1: Three languages used include Python, Javascript and C++, two implementations of Power Function were developed iteratively and recursively. Question1/note.txt goes over some observations on this.
 
 Question 2: Uses Python for implementation, notes on input restriction are made on Question2/qf.txt
 takes three values from standard input: a, b, c. Prints two values + and - answers.
