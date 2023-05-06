@@ -8,7 +8,7 @@ takes three values from standard input: a, b, c. Prints two values + and - answe
 
 Question 3: Uses Python for implementation, takes two values from standard input: Inclusive Price and Percentage (0-100). Print price exlusive tax.
 
-Question 4: Uses Pythom for implementation, takes one name (accepts space and capitalisation) as input from standard input. Prints Soundex Code.
+Question 4: Uses Python for implementation, takes one name (accepts space and capitalisation) as input from standard input. Prints Soundex Code.
 
 Question 5: Uses MySQl for implentation.
 
