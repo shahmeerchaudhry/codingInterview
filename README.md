@@ -6,7 +6,7 @@ Question 1: Three languages used include Python, Javascript and C++, two impleme
 Question 2: Uses Python for implementation, notes on input restriction are made on Question2/qf.txt
 takes three values from standard input: a, b, c. Prints two values + and - answers.
 
-Question 3: Uses Python for implementation, takes two values from standard input: Inclusive Price and Percentage (0-100). Print price exlusive tax.
+Question 3: Uses Python for implementation, takes two values from standard input: Inclusive Price and Percentage (0-100). Prints price exlusive tax.
 
 Question 4: Uses Python for implementation, takes one name (accepts space and capitalisation) as input from standard input. Prints Soundex Code.
 
